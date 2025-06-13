@@ -9,15 +9,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/valtech-sd/amqp-cacoon.git"
+    "url": "https://github.com/medosync1/amqp-cacoon.git"
   },
   "scripts": {
     "build": "rimraf ./build && tsc",
     "test": "rimraf ./build && tsc && mocha --exit -r ts-node/register ./tests/**/*.test.ts"
   },
   "dependencies": {
-    "amqp-connection-manager": "~3.5.0",
-    "amqplib": "^0.8.0",
+    "amqp-connection-manager": "~3.9.0",
+    "amqplib": "^0.10.8",
     "lodash": "^4.17.21"
   },
   "license": "MIT",
